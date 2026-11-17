@@ -1,0 +1,16 @@
+# Never commit private keys
+*_private.pem
+*private*.pem
+
+# Local logs and generated signatures
+signature_log.json
+*.sig
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor
+.vscode/
